@@ -13,6 +13,13 @@
 
 [Live Demo Link](https://livedemo.com)
 
+### Setup
+To get a local copy up and running follow these simple example steps.
+
+- Clone the repository to your computer using git clone https://github.com/lily-coder/first-project.git
+- Cd into the folder
+- Open index.html with live server
+- Or you can Fork it instead, and create a pull request to suggest some changes
 
 ## Authors
 
