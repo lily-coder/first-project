@@ -5,9 +5,163 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Hello Microverse</title>
+    <script src="https://kit.fontawesome.com/3866333966.js" crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0P53HHC71N"></script>
+    
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-0P53HHC71N');
+    </script>
+    <title>LilianMoraa</title>
 </head>
 <body>
-    <h1>Hello Microverse!</h1>
+  <!--Mobile Menu-->
+  <aside class="menu-bar">
+    <ul>
+      <li class="mobile-list"><a href="#about">About</a></li>
+      <li class="mobile-list"><a href="#portfolio">Portfolio</a></li>
+      <li class="mobile-list"><a href="#contact">Contact</a></li>
+    </ul>
+    <i class="fa fa-close fa-2x hamburger" id="close"></i>
+    <div class="ellipse-one"></div>
+    <div class="ellipse-two"></div>
+  </aside>
+  <!-- Navigation Bar -->
+  <nav class="topnav">
+    <h2 class="white welcome-button">Welcome</h2>
+    <ul class="top-navbar">
+      <li class="nav-item white"><a href="#portfolio">Portfolio</a></li>
+      <li class="nav-item white"><a href="#about">About</a></li>
+      <li class="nav-item white"><a href="#contact">Contact</a></li>
+      <li class="nav-item white"><i class="fas fa-envelope"></i></li>
+    </ul>
+    <i class="fas fa-bars fa-2x hambuger" id="hamburger"></i>
+  </nav>
+  <div class="ellipse-1"></div>
+  <main id="main">
+    <!-- About Me Section -->
+    <section class="first-section">
+      <h1 class="first-section-title">Lilian Moraa</h1>
+      <div class="developer">Software Developer</div>
+      <div class="aboutme" id="about">
+        I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,  don’t hestiate to contact me.
+      </div>
+      <div class="ellipse-2"></div>
+      <hr class="hr1">
+      <div class="experience">
+        <ul class="languages">
+          <li class="skilltitle">Languages</li>
+          <li class="skilltitles">Javascript</li>
+          <li class="skilltitles">Ruby</li>
+          <li class="skilltitles">Html</li>
+          <li class="skilltitles">Css</li>
+        </ul>
+        <ul class="frameworks">
+          <li class="skilltitle">Frameworks</li>
+          <li class="skilltitles">Bootstrap</li>
+          <li class="skilltitles">Ruby on Rails</li>
+          <li class="skilltitles">RSpec</li>
+          <li class="skilltitles">Capy Bara</li>
+          <li class="skilltitles">Selenium</li>
+        </ul>
+        <ul class="skills">
+          <li class="skilltitle">Skills</li>
+          <li class="skilltitles">Codekit</li>
+          <li class="skilltitles">Github</li>
+          <li class="skilltitles">Codepen</li>
+          <li class="skilltitles">Gitlab</li>
+          <li class="skilltitles">Terminal</li>
+        </ul>
+      </div>
+    </section>
+    <section class="second-section">
+      <hr class="hr1">
+      <div class="icons-work">
+        <div class="workarrow">
+          <p>Work</p>
+          <i class="fa fa-arrow-down"></i>
+        </div>
+        <div class="icons">
+          <i class="fa fa-github white"></i>
+          <i class="fa fa-linkedin white"></i>
+          <i class="fa fa-angellist white"></i>
+          <i class="fa fa-twitter white"></i>
+          <i class="fa fa-medium white"></i> 
+        </div>
+        <div class="work">
+          <i class="fa fa-arrow-down"></i>
+          <p>Work</p>
+        </div>
+      </div>
+      <h3 class="recent">MY RECENT WORK</h3>
+      <hr class="hr2 mongo">
+    </section>
+      <div class="ellipse-3"></div>
+      <!-- My Work Section -->
+      
+    <section class="showcase" id="portfolio">
+      <h3 class="recent2">My recent work</h3>
+      <hr class="hr2 mongo2">
+      <div class="cards"></div>
+    </section>
+    <!-- Contact Me section -->
+    <section class="contact-form" id="contact">
+      <form action="https://formspree.io/f/mrgraejl" method="POST" class="form">
+        <h2 class="contact-header">CONTACT US</h2>
+        <h2 class="contact-header2">Lets Chat</h2>
+        <div class="form-paragraph">
+          If you have an application that you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it.
+        </div>
+        <input
+          type="text"
+          name="user_name"
+          id="name"
+          maxlength="30"
+          placeholder="Your Full Names"
+          required
+        />
+        <input
+          type="email"
+          name="user_email"
+          id="email"
+          placeholder="jeremy@gmail.com"
+          required
+        />
+        <textarea
+          name="user_message"
+          id="message"
+          cols="30"
+          rows="10"
+          maxlength="500"
+          minlength="1"
+          placeholder="Enter text here"
+          required></textarea>
+          <span class="error-message"></span>
+        <button type="submit">Get In Touch</button>
+      </form>
+    </section>
+  </main>
+  <hr class="hr6">
+  <footer class="footer">
+    <div class="footer-icons">
+      <i class="fa fa-github white"></i>
+      <i class="fa fa-linkedin white"></i>
+      <i class="fa fa-angellist white"></i>
+      <i class="fa fa-twitter white"></i>
+      <i class="fa fa-medium white"></i>
+    </div>
+    <div class="footer-email">
+      <div>emailhere@email.com</div>
+    </div>
+  </footer>
+  <aside id="my-popup">
+  </aside>
+  <script src="script.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
